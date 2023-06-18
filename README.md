@@ -16,4 +16,6 @@ rails generate scaffold Task name:string description:text project_id:integer
 
 5- rails db:migrate
 
+6- rails server
+
 # Created By Silent Death_53
