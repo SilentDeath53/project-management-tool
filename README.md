@@ -11,6 +11,7 @@ rails new project-management-tool
 4- Generate the necessary models:
 
 rails generate scaffold Project name:string description:text
+
 rails generate scaffold Task name:string description:text project_id:integer
 
 5- rails db:migrate
